@@ -1,0 +1,56 @@
+<body>
+  <div class="triangle t1">
+    <div class="rel"><div class="triangle tc1"></div></div>
+  </div>
+  <div class="triangle t2">
+    <div class="rel"><div class="triangle tc2"></div></div>
+  </div>
+</body>
+<style>
+  body {
+    background: #F2F2B6;
+    position: relative;
+    display: flex;
+  }
+  
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .rel {
+    position: relative;
+  }
+  
+  .t1 {
+    border-width: 128px 77px 0 77px;
+    border-color: #FD4602 transparent transparent transparent;
+    left: 18%;
+    top: 27%;
+  }
+  
+  .t2 {
+    border-width: 0 77px 128px 77px;
+    border-color: transparent transparent #FF6D00 transparent;
+    left: 47.5%;
+    top: 27%;
+  }
+  
+  .tc1 {
+    position: absolute;
+    border-width: 128px 77px 0 77px;
+    border-color: #FF6D00 transparent transparent transparent;
+    top: -128px;
+    left: -97px;
+  }
+  
+  .tc2 {
+    position: absolute;
+    border-width: 0 77px 128px 77px;
+    border-color: transparent transparent #FD4602 transparent;
+    top: 0px;
+    left: -97px;
+  }
+</style>
