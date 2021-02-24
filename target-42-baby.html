@@ -1,0 +1,71 @@
+<div class="head">
+  <div class="eye e1 skin-color"></div>
+  <div class="eye e2 skin-color"></div>
+  <div class="mouth skin-color"></div>
+  <div class="hair h1 skin-color"></div>
+  <div class="hair h2 skin-color"></div>
+</div>
+
+<style>
+  body {
+    background: #293462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skin-color {
+    background: #FFF1C1;
+  }
+  
+  .head {
+    background: #FE5F55;
+    width: 200;
+    height: 200;
+    border-radius: 100px 100px 45px 45px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .eye {
+    border-radius: 50%;
+    width: 60;
+    height: 60;
+    position: absolute;
+  }
+  
+  .e1 {
+    top: 90;
+    left: 20;
+  }
+  
+  .e2 {
+    top: 90;
+    left: 120;
+  }
+  
+  .mouth {
+    position: absolute;
+    width: 40;
+    height: 10;
+    border-radius: 10px;
+    left: 80;
+    top: 170;
+  }
+  
+  .hair {
+    position: absolute;
+    height: 100;
+    width: 100;
+    border-radius: 50%;
+  }
+  
+  .h1 {
+    top: -50;
+  }
+  
+  .h2 {
+    top: -50;
+    left: 100;
+  }
+</style>
