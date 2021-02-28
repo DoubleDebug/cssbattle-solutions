@@ -1,0 +1,40 @@
+<div class="outer abs"></div>
+<div class="circle abs">
+  <div class="inner abs"></div>
+</div>
+<style>
+  body {
+    background: #19191A;
+    position: relative;
+  }
+  
+  .abs {
+    position: absolute;
+  }
+  
+  .circle {
+    background: #4F77FF;
+    width: 150;
+    height: 150;
+    border-radius: 50%;
+    left: calc(50% - 75px);
+    top: 42;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .inner {
+    background: #9AD5FF;
+    width: 75;
+    height: 100;
+    top: 75;
+  }
+  
+  .outer {
+    background: #F9E492;
+    width: 75;
+    height: 120;
+    top: 122;
+    left: 117;
+  }
+</style>
