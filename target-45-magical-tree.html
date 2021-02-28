@@ -1,0 +1,80 @@
+<div class="top1 bright-yellow abs">
+  <div class="topLeft">    
+    <div class="top2 abs"></div>
+    <div class="top3 abs dark-yellow"></div>
+    <div class="top4 abs dark-yellow"></div>
+  </div>
+  <div class="topLeft rotated">    
+    <div class="top2 abs"></div>
+    <div class="top3 abs dark-yellow"></div>
+    <div class="top4 abs dark-yellow"></div>
+  </div>
+	<div class="bottom2 abs dark-yellow"></div>
+	<div class="bottom1 abs bright-yellow"></div>
+</div>
+<style>
+  body {
+    background: #1A4341;
+    position: relative;
+  }
+  
+  .abs {
+    position: absolute;
+  }
+  
+  .bright-yellow {
+    background: #F3AC3C;
+  }
+  
+  .dark-yellow {
+    background: #998235;
+  }
+  
+  .topLeft {
+    position: relative;
+  }
+  
+  .top1 {
+    width: 270;
+    height: 277;
+    left: calc(50% - 135px);
+    top: -75;
+  }
+  
+  .top2 {
+    background: #1A4341;
+    width: 90;
+    height: 247;
+    left: 30;
+  }
+  
+  .top3 {
+    width: 30;
+    height: 216;
+    left: 60;
+  }
+  
+  .top4 {
+    width: 60;
+    height: 30;
+    top: 187;
+    left: 60;
+  }
+  
+  .rotated {
+    transform: scaleX(-1);
+  }
+  
+  .bottom1 {
+    width: 30;
+    height: 100;
+    top: 270;
+    left: 120
+  }
+  
+  .bottom2 {
+    width: 270;
+    height: 30;
+    top: 307;
+  }
+</style>
