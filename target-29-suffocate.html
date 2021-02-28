@@ -1,0 +1,53 @@
+<div class="square abs"></div>
+<div class="circle yellow tl abs"></div>
+<div class="circle yellow tr abs"></div>
+<div class="circle yellow bl abs"></div>
+<div class="circle yellow br abs"></div>
+<style>
+  body {
+    background: #F3AC3C;
+    position: relative;
+  }
+  
+  .yellow {
+    background: #F3AC3C;
+  }
+  
+  .abs {
+    position: absolute;
+  }
+  
+  .square {
+    background: #1A4341;
+    width: 200;
+    height: 200;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+  }
+  
+  .circle {
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+  }
+  
+  .tl {
+    left: -8;
+    top: -58;
+  }
+  
+  .tr {
+    left: 192;
+    top: -58;
+  }
+  
+  .bl {
+    left: -8;
+    top: 142;
+  }
+  
+  .br {
+    left: 192;
+    top: 142;
+  }
+</style>
