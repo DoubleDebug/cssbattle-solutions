@@ -1,0 +1,67 @@
+<div class="roof centered">
+  <div class="triangle dark-blue"></div>
+</div>
+<div class="centered">
+  <div class="house dark-blue">
+    <div class="window yellow"></div>
+    <div class="door yellow"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #6592CF;
+  }
+  
+  .dark-blue {
+    background: #243D83;
+  }
+  
+  .yellow {
+    background: #EEB850;
+  }
+  
+  .centered {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+  
+  .roof {
+    margin-top: 50;
+    overflow: hidden;
+  }
+  
+  .house {
+    height: 100;
+    width: 150;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+  }
+  
+  .triangle {
+    width: 150;
+    height: 150;
+    transform: rotate(45deg);
+    margin-top: 31;
+  }
+  
+  .door {
+    position: relative;
+    width: 50;
+    height: 50;
+    border-radius: 10px 10px 0 0;
+    left: calc(50% - 25px);
+    top: 40;
+  }
+  
+  .window {
+    position: relative;
+    width: 100;
+    height: 10;
+    border-radius: 10px;
+    left: calc(50% - 50px);
+    top: -5;
+  }
+</style>
