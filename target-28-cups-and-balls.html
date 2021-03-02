@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="ball dark-yellow"></div>
+  <div class="cup bright-yellow"></div>
+  <div class="cup dark-yellow"></div>
+  <div class="ball bright-yellow"></div>
+  <div class="cup bright-yellow rot"></div>
+  <div class="ball dark-yellow"></div>
+  <div class="ball bright-yellow"></div>
+  <div class="cup dark-yellow rot"></div>
+</div>
+<style>
+  body {
+    background: #1A4341;
+  }
+  
+  .bright-yellow {
+    background: #F3AC3C;
+  }
+  
+  .dark-yellow {
+    background: #998235;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .item {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ball {
+    border-radius: 50%;
+  }
+  
+  .cup {
+    border-radius: 25px 25px 0 0;
+  }
+  
+  .rot {
+    transform: rotate(180deg);
+  }
+</style>
