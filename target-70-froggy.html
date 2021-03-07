@@ -1,0 +1,102 @@
+<div class="face">
+  <div class="bigCircle red"></div>
+  <div class="nose n1"></div>
+  <div class="nose n2"></div>
+</div>
+<div class="eye e1 red"></div>
+<div class="eyeball eb1"></div>
+<div class="nose p1"></div>
+<div class="eye e2 red"></div>
+<div class="eyeball eb2"></div>
+<div class="nose p2"></div>
+<style>
+  body {
+    background: #293462;
+    position: relative;
+  }
+  
+  div {
+    position: absolute;
+  }
+  
+  .red {
+    background: #FE5F55;
+  }
+  
+  .face {
+    background: #A64942;
+    position: relative;
+    width: 150;
+    height: 100;
+    border-radius: 75px;
+    left: calc(50% - 75px);
+    top: calc(50% - 40px);
+    overflow: hidden;
+  }
+  
+  .bigCircle {
+    width: 450;
+    height: 450;
+    border-radius: 50%;
+    top: -381;
+    left: -150;
+  }
+  
+  .nose {
+    background: #293462;
+    width: 10;
+    height: 10;
+    border-radius: 50%;    
+  }
+  
+  .n1 {
+    left: 60;
+    top: 50;
+  }
+  
+  .n2 {
+    left: 80;
+    top: 50;
+  }
+  
+  .eye {
+    width: 50;
+    height: 50;
+    border-radius: 50%;
+    top: calc(50% - 65px);
+  }
+  
+  .e1 {    
+    left: calc(50% - 60px);
+  }
+  
+  .e2 {    
+    left: calc(50% + 10px);
+  }
+  
+  .eyeball {
+    background: #FFF1C1;
+    width: 30;
+    height: 30;
+    border-radius: 50%;
+    top: calc(50% - 55px);
+  }
+  
+  .eb1 {
+    left: calc(50% - 50px);
+  }
+  
+  .eb2 {
+    left: calc(50% + 20px);
+  }
+  
+  .p1 {
+    left: 152;
+    top: 97;
+  }
+  
+  .p2 {
+    left: 222;
+    top: 97;
+  }
+</style>
