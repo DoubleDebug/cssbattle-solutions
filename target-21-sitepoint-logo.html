@@ -1,0 +1,54 @@
+<div class="capitalL top">
+  <div class="rect1 orange"></div>
+  <div class="rect2 orange"></div>
+</div>
+<div class="capitalL bottom">
+  <div class="rect1 blue"></div>
+  <div class="rect2 blue"></div>
+</div>
+
+<style>
+  body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+  
+  .orange {
+    background: #F2994A;
+  }
+  
+  .blue {
+    background: #2D9CDB;
+  }
+  
+  .capitalL {
+    position: relative;
+  }
+  
+  .rect1 {
+    position: absolute;
+    width: 30;
+    height: 71;
+  }
+  
+  .rect2 {
+    position: absolute;
+    width: 80;
+    height: 30;
+    top: 70;
+    border-radius: 0 5px 0 10px;
+  }
+  
+  .top {
+    margin-top: -176;
+    transform: rotate(45deg);
+  }
+  
+  .bottom {
+    margin-top: 176;
+    margin-left: 10;
+    transform: rotate(225deg);
+  }
+</style>
